@@ -1,0 +1,10 @@
+npm install -g @angular/cli@latest
+if throwing error then open 
+powershell as administrator
+then write the command Set-ExecutionPolicy RemoteSigned
+then do Yes
+
+
+ng new hello 
+
+ng serve
