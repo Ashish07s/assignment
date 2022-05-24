@@ -1,0 +1,19 @@
+STEP 1 - download docker 
+STEP 2 download nodejs
+step 3 - create the new folder (use lowecase )
+step 4 - create the new file name - Dockerfile
+FROM node:alpine
+COPY . /docker
+CMD node /docker/hello.js
+
+step 5 - create the new file name -hello.js
+console.log("hello");
+step 6 -check  the version of the both
+     docker --version
+     npm --version
+
+download the extension from the extension of the vs code
+
+node hello.js
+docker build -t docker .
+docker images
